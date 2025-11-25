@@ -39,10 +39,10 @@ export default function Auth() {
 
           <div className="d-grid gap-2 mb-3">
             <button onClick={() => handleOAuth("google")} disabled={loading} className="btn btn-danger">
-              Continue with Google
+              <i className="bi bi-google me-2"></i> Continue with Google
             </button>
             <button onClick={() => handleOAuth("github")} disabled={loading} className="btn btn-dark">
-              Continue with GitHub
+              <i className="bi bi-github me-2"></i> Continue with GitHub
             </button>
           </div>
 
@@ -67,3 +67,4 @@ export default function Auth() {
     </div>
   );
 }
+
